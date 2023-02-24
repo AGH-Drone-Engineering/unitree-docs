@@ -20,6 +20,7 @@ Docker image with SDK:\
 ### Without Docker
 
 Requirements:
+
 - Python 3.8
 
 Get the SDK:
@@ -33,4 +34,26 @@ Run the example:
 ```bash
 cd unitree_legged_sdk/example_py
 python example_walk.py
+```
+
+### GUI App
+
+Requirements:
+
+- installed SDK (as above)
+
+[Code](examples/control_sdk_gui)
+
+Run the server (from one terminal):
+
+```bash
+cd examples/control_sdk_gui
+python server.py
+```
+
+Run the GUI (from second terminal):
+
+```bash
+cd examples/control_sdk_gui
+python gui.py
 ```
